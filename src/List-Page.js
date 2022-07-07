@@ -6,5 +6,6 @@ export default function ListPage() {
     <div>
             This is the List Page, and should be the first thing you see
     </div>
+      
   );
 }
