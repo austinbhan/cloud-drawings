@@ -13,3 +13,13 @@ background-color: lightcoral;
 .footer {
 background-color: lightgreen;
 }
+
+.icon {
+  width: 300px;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
