@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import AboutMe from './About-Me';
 import ListPage from './List-Page';
+import DetailPage from './Detail-Page';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route exact path="/about-me">
               <AboutMe />
+            </Route>
+            <Route exact path="/pictures/:id">
+              <DetailPage />
             </Route>
           </Switch>
         </div>
