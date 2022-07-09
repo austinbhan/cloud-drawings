@@ -14,7 +14,7 @@ export default function AboutMe() {
           I have no formal drawing experience.
           Drawings are inspired by personal experiences, 
           the interests and personalities of my colleagues,
-          or nothing at all.
+          or nothing at all. My style is mostly inspired by Sanrio.
           I presently do not have plans to monetize my work, but will accept requests and ideas.
         </p>
         <p>

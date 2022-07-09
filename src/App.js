@@ -11,9 +11,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Title Goes Here</h1>
+        <img className="title-image" src={require('./title.png').default} />
         <div className="header">
-          
           <Link to="/about-me" className="link">About Me</Link>
         </div>
         <div className="body">
