@@ -17,4 +17,4 @@ export default function Picture({ title, id, link }) {
   );
 }
 
-// How to Link Detail-Page with List-Item
+// Pages are added, now make detail picture

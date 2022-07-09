@@ -4,18 +4,26 @@
 
 .header {
 background-color: lightblue;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.body {
-background-color: lightcoral;
+.link {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .footer {
-background-color: lightgreen;
+display: flex;
+flex-direction: row-reverse;
+
 }
 
 .icon {
   width: 300px;
+  border-radius: 5%;
 }
 
 .pictures {
@@ -26,9 +34,10 @@ background-color: lightgreen;
 }
 
 .picture {
-  background-color: grey;
+  background-color: rgb(210, 238, 255);
   padding: 5px;
   margin: 5px;
+  border-radius: 5%;
 }
 
 .about-me {
@@ -38,4 +47,18 @@ background-color: lightgreen;
 }
 .text {
   width: 500px;
+}
+
+.image-size {
+  height: 500px;
+  border-radius: 2%;
+}
+
+body {
+  background-image: url("./background-image.jpg");
+}
+
+#footer-text {
+  position: relative;
+  right: 20px;
 }

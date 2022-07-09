@@ -6,7 +6,7 @@ export async function getPictures() {
 }
 
 export async function getPicture(id) {
-  const response = await client.from('cloud-table').select().match({ id }).single(); // Work from Here
+  const response = await client.from('cloud_table').select().match({ id }).single(); // Work from Here
   return checkError(response);
 }
 

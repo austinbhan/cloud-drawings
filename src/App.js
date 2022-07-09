@@ -11,14 +11,12 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <h1>Title Goes Here</h1>
         <div className="header">
-          <h1>Title Goes Here</h1>
           
-          <Link to="/about-me">About Me</Link>
+          <Link to="/about-me" className="link">About Me</Link>
         </div>
-
         <div className="body">
-          <h3>Body Contents Go Here</h3>
           <Switch>
             <Route exact path="/">
               <ListPage />
@@ -33,7 +31,7 @@ function App() {
         </div>
 
         <div className="footer">
-          <h3>Footer Goes here</h3>
+          <h3 id="footer-text">2022 by Austin Han</h3>
         </div>
       </div>
     </Router>
