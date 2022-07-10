@@ -34,10 +34,11 @@ flex-direction: row-reverse;
 }
 
 .picture {
-  background-color: rgb(210, 238, 255);
+  background-color: rgb(199, 233, 255);
   padding: 5px;
   margin: 5px;
   border-radius: 5%;
+  box-shadow: 3px 3px 3px rgb(169, 205, 255);
 }
 
 .about-me {
