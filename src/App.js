@@ -11,11 +11,6 @@ import Suggestions from './Suggestions';
 function App() {
   return (
     <Router>
-      <head>
-        <meta name="title" property="og:title" content="Doodling" />
-        <meta name="image" property="og:image" content="./preview-image.jpg" />
-        <meta name="author" content="Austin Han" />
-      </head>
       <div className="App">
         <img className="title-image" src={require('./title.png').default} />
         <div className="header">
