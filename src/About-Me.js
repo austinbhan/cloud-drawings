@@ -19,7 +19,8 @@ export default function AboutMe() {
         </p>
         <p>
         All drawings are made with Procreate.
-          Site hosting by Netlify, with database support from Supabase and Imgur.
+        Site hosting by Netlify, with database support from Supabase and Imgur.
+        Site features will increase as I continue to learn.  
         </p>
         <p>
           <a href="https://github.com/austinbhan" target="_blank" rel="noreferrer">My Github</a>
