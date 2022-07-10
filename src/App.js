@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import AboutMe from './About-Me';
 import ListPage from './List-Page';
 import DetailPage from './Detail-Page';
+import Suggestions from './Suggestions';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <img className="title-image" src={require('./title.png').default} />
         <div className="header">
           <Link to="/about-me" className="link">About Me</Link>
+          <Link to="/suggestions" className="link">Submit a Request</Link>
         </div>
         <div className="body">
           <Switch>
@@ -25,6 +27,9 @@ function App() {
             </Route>
             <Route exact path="/pictures/:id">
               <DetailPage />
+            </Route>
+            <Route exact path="/suggestions">
+              <Suggestions />
             </Route>
           </Switch>
         </div>
