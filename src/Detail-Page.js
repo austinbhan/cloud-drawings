@@ -23,7 +23,7 @@ export default function DetailPage() {
     <div className="detail-page">
       <img src={picture.link} className="image-size"/>
       <h3>{picture.title}</h3>
-      <button onClick={handleGoBack}>Take me Back</button>
+      <button className="button" onClick={handleGoBack}>Take me Back</button>
     </div>
   );
 }

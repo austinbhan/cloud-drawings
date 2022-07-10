@@ -26,7 +26,7 @@ export default function AboutMe() {
           <a href="https://github.com/austinbhan" target="_blank" rel="noreferrer">My Github</a>
         </p>
       </div>
-      <button onClick={handleGoBack}>Take me back</button>
+      <button className="button" onClick={handleGoBack}>Take me back</button>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 
 export default function Suggestions() {
 
@@ -9,7 +10,7 @@ export default function Suggestions() {
   return (
     <div className="suggestions">
       <h3>Form coming soon! Meanwhile, <a href="mailto:austinbhan@outlook.com?subject=Doodles%20Request">email me</a> your suggestions.</h3>
-      <button onClick={handleGoBack}>Take me back</button>
+      <button className="button" onClick={handleGoBack}>Take me back</button>
     </div>
   );
 }
