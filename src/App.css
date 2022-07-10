@@ -41,6 +41,10 @@ flex-direction: row-reverse;
   box-shadow: 3px 3px 3px rgb(169, 205, 255);
 }
 
+.picture:hover {
+  box-shadow: 3px 3px 3px rgb(104, 167, 255);
+}
+
 .about-me {
   display: flex;
   flex-direction: column;
@@ -53,7 +57,9 @@ flex-direction: row-reverse;
 .image-size {
   height: 500px;
   border-radius: 2%;
+  box-shadow: 3px 3px 3px rgb(169, 205, 255);
 }
+
 
 body {
   background-image: url("./background-image.jpg");
