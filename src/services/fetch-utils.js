@@ -1,7 +1,7 @@
 import { client, checkError } from './client';
 
 export async function getPictures() {
-  const response = await client.from('cloud_table').select('*');
+  const response = await client.from('cloud_table').select('*').order('id', { ascending: false });
   return checkError(response);
 }
 
