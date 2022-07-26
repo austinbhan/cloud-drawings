@@ -10,3 +10,17 @@ export async function getPicture(id) {
   return checkError(response);
 }
 
+export async function addLike(id) {
+
+  let liked = await client.from('cloud_table').select('liked').match({ id }).single();
+
+  const { data, error } = await client.from('cloud_table').update({ liked: liked.data.liked + 1 })
+    .match({ id }).single();
+
+  if (error) {
+    // eslint-disable-next-line no-console
+    console.error(error);
+  } else {
+    return data;
+  }
+}

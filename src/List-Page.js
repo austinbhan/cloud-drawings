@@ -16,6 +16,8 @@ export default function ListPage() {
   }, []);
 
 
+
+
   return (
     <div className="list-container">
       <List pictures={pictures}/>
