@@ -29,9 +29,11 @@ export default function DetailPage() {
     <div className="detail-page">
       <img src={picture.link} className="image-size"/>
       <h3>{picture.title}</h3>
-      <p>{picture.liked}</p>
-      <button onClick={handleAddLike}>Like!</button>
-      <button className="button" onClick={handleGoBack}>Take me Back</button>
+      <p>Number of Likes: {picture.liked}</p>
+      <div>
+        <button className="button" onClick={handleAddLike}>Like This Image!</button>
+        <button className="button" onClick={handleGoBack}>Take me Back</button>
+      </div>
     </div>
   );
 }
